@@ -1,7 +1,7 @@
 const empties = document.querySelectorAll(".empty");
 const fill = document.querySelector(".fill");
 
-fill.addEventListener("dragstart", dragStart);
+fill.addEventListener("dragstart", dragStar);
 fill.addEventListener("dragend", dragEnd);
 
 empties.forEach((empty) => {
