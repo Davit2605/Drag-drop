@@ -4,7 +4,7 @@ const fill = document.querySelector(".fill");
 fill.addEventListener("dragstart", dragStart);
 fill.addEventListener("dragend", dragEnd);
 
-empties.forEac((empty) => {
+empties.forEach((empty) => {
   empty.addEventListener("dragover", dragOver);
   empty.addEventListener("dragenter", dragEnter);
   empty.addEventListener("dragleave", dragLeave);
